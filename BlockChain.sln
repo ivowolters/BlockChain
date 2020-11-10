@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockChain.Core", "BlockChain.Core\BlockChain.Core.csproj", "{973730E9-FD54-486E-95B5-F09E47595ED2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7D4FF53B-EA99-4606-9EEB-83C057298CE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{BB97B09C-3432-4D51-9F11-F220C01814E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockChain.CoreTest", "BlockChain.CoreTest\BlockChain.CoreTest.csproj", "{5464A756-921F-48D3-99D8-0505F8E59A5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{973730E9-FD54-486E-95B5-F09E47595ED2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{973730E9-FD54-486E-95B5-F09E47595ED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{973730E9-FD54-486E-95B5-F09E47595ED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{973730E9-FD54-486E-95B5-F09E47595ED2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5464A756-921F-48D3-99D8-0505F8E59A5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5464A756-921F-48D3-99D8-0505F8E59A5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5464A756-921F-48D3-99D8-0505F8E59A5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5464A756-921F-48D3-99D8-0505F8E59A5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{973730E9-FD54-486E-95B5-F09E47595ED2} = {7D4FF53B-EA99-4606-9EEB-83C057298CE5}
+		{5464A756-921F-48D3-99D8-0505F8E59A5B} = {BB97B09C-3432-4D51-9F11-F220C01814E6}
+	EndGlobalSection
+EndGlobal
