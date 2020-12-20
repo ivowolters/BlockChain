@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using BlockChain.Core.interfaces;
 
@@ -7,7 +8,7 @@ namespace BlockChain.Core
     {
         private static Chain _chain;
 
-        private List<IBlock> _blocks;
+        private Dictionary<Type, List<IBlock>> _blocks;
         
         public static Chain Instance
         {
@@ -22,9 +23,19 @@ namespace BlockChain.Core
             }
         }
 
-        public void Attach(Block block)
+        public void Attach(IBlock block)
         {
-            
+            if (_blocks.ContainsKey(typeof(IBlock)))
+            {
+                _blocks[block.GetType()].Add(block);
+            }
+            else
+            {
+                _blocks[block.GetType()] = new List<IBlock>()
+                {
+                    block
+                };
+            }
         }
     }
 }
