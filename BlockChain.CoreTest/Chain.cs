@@ -13,9 +13,8 @@ namespace BlockChain.CoreTest
         public void TestTypeSepration()
         {
             var chain = new Mock<BlockChain.Core.Chain>();
-            
-            chain.Setup(x => x.Attach(new TestBlock()));
-            chain.Setup(x => x.Attach(new Block()));
+            chain.Object.Attach(new TestBlock());
+            chain.Object.Attach(new Block());
         }
     }
 }

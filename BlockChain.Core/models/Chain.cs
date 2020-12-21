@@ -8,7 +8,7 @@ namespace BlockChain.Core
     {
         private static Chain _chain;
 
-        private Dictionary<Type, List<IBlock>> _blocks;
+        private Dictionary<Type, List<IBlock>> _blocks = new Dictionary<Type, List<IBlock>>();
         
         public static Chain Instance
         {

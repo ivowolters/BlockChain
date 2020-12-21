@@ -1,0 +1,5 @@
+C:\Users\Ivo\Documents\repos\BlockChain\BlockChain.Core\bin\Debug\BlockChain.Core.dll
+C:\Users\Ivo\Documents\repos\BlockChain\BlockChain.Core\bin\Debug\BlockChain.Core.pdb
+C:\Users\Ivo\Documents\repos\BlockChain\BlockChain.Core\obj\Debug\BlockChain.Core.csprojAssemblyReference.cache
+C:\Users\Ivo\Documents\repos\BlockChain\BlockChain.Core\obj\Debug\BlockChain.Core.dll
+C:\Users\Ivo\Documents\repos\BlockChain\BlockChain.Core\obj\Debug\BlockChain.Core.pdb
